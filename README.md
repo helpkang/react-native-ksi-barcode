@@ -56,3 +56,6 @@ const styles = StyleSheet.create({
 
 AppRegistry.registerComponent('barcodetest', () => barcodetest);
 ```
+
+Component is Text View extended.  
+pops is text attribute appended. 
