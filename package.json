@@ -9,5 +9,33 @@
     "assets": [
       "Fonts"
     ]
-  }
+  },
+   "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "osx",
+    "macos",
+    "ui",
+    "barcode",
+    "code128",
+    "generator"
+  ],
+  "author": {
+    "name": "Sungil Kang",
+    "email": "helpkang@gmail.com"
+  },
+  "homepage": "https://github.com/helpkang/react-native-ksi-barcode",
+  "bugs": {
+    "url": "https://github.com/helpkang/react-native-ksi-barcode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helpkang/react-native-ksi-barcode.git"
+  },
+  "license": "MIT"
 }
