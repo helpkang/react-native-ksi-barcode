@@ -1,5 +1,7 @@
 # react-native-ksi-barcode
 
+barcode code128 generator
+
 * install
 ```
 npm i -S react-native-ksi-barcode
