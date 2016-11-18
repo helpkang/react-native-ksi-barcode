@@ -129,7 +129,7 @@ function getCode128CCharacterAuto(inputvalue) {
     if ((inputvalue <= 94) && (inputvalue >= 0))
         inputvalue = inputvalue + 32;
     else if ((inputvalue <= 106) && (inputvalue >= 95))
-        inputvalue = inputvalue + 32 + 100;
+        inputvalue = inputvalue + 105;
     else
         inputvalue = -1;
 
@@ -191,8 +191,8 @@ function getCode128CCharacter(inputvalue) {
     else if (inputvalue >= 95)
         // inputvalue = inputvalue + 32 + 100;//original 인데
         inputvalue = inputvalue + 105;
-    // else
-    //     inputvalue = -1;
+    else
+        inputvalue = -1;
 
     return String.fromCharCode(inputvalue);
 
