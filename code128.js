@@ -115,7 +115,7 @@ function getCode128ABCharacterAuto(inputvalue) {
     if ((inputvalue <= 94) && (inputvalue >= 0))
         inputvalue = inputvalue + 32;
     else if ((inputvalue <= 106) && (inputvalue >= 95))
-        inputvalue = inputvalue + 100 + 32;
+        inputvalue = inputvalue + 105;
     else
         inputvalue = -1;
 
